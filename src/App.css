@@ -1,0 +1,24 @@
+.column {
+  border: 1px solid grey;
+  margin: 10px;
+  /* width: 240px; */
+  /* min-height: 400px; */
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.column > h1 {
+  padding: 8px;
+}
+
+.task-list {
+  padding: 8px;
+}
+
+.task {
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: white;
+}
