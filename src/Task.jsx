@@ -12,7 +12,6 @@ function Task(props) {
           {...provided.dragHandleProps}
         >
           {props.task.content}
-          {provided.placeholder}
         </div>
       )}
     </Draggable>

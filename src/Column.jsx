@@ -6,7 +6,7 @@ import { Droppable } from "@hello-pangea/dnd";
 function Column(props) {
   return (
     <div className="column">
-      <h2>{props.title}</h2>
+      <h3>{props.title}</h3>
       <Droppable droppableId={props.id}>
         {(provided) => (
           <div
